@@ -2,13 +2,14 @@
     <ion-content>
         <div>
             <div class="padding">
-                Token: {{accessToken}}
+                Token: {{data.token}}
                 <button ng-click="login()" class="button button-block button-stable">
                     Log In
                 </button>
                 <button ng-click="logout()" class="button button-block button-stable">
                     Log Out
                 </button>
+                {{data.token}}
             </div>
         </div>
     </ion-content>
